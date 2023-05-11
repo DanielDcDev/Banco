@@ -15,16 +15,17 @@
         <div class="boxCadaster">
         
             <h3>Cadaster</h3>
+            <form>
             <h4>Name</h4>
             <input class="inputs" type="text" placeholder="Name" id="name">
             
             <h4>Gender</h4>
             <label for="genderCheck">Male:</label>
-            <input type="checkbox" class="inputs" id="male">
+            <input type="checkbox" class="inputs Gender" id="male">
             <label for="genderCheck">Female:</label>
-            <input type="checkbox" class="inputs" id="female">
-            <label for="genderCheck">Other:</label>
-            <input type="text" class="inputs" id="other" placeholder="Other gender">
+            <input type="checkbox" class="inputs Gender" id="female">
+            <br><label for="genderCheck">Other:</label>
+            <input type="text" class="inputs Gender" id="other" placeholder="Other gender">
             
 
             <h4>Login:</h4>
@@ -37,27 +38,22 @@
             <input type="password" class="inputs" placeholder="Comfirm password" id="Confirmpassword">
                 
             <h4>Email: </h4>
-            <input type="email" class="inputs" placeholder="Rmail" id="email">
+            <input type="email" class="inputs" placeholder="Email" id="email">
             
             <h4>Reservation email:</h4>
-            <input type="email" class="inputs" placeholder=" Reservation email" id="email">
+            <input type="email" class="inputs" placeholder="ReservationEmail" id="ReservationEmail">
             
             <h4>Date of birth</h4>
-            <input type="date" class="inputs">
+            <input type="date" class="inputs" id="date">
                 
             <h4>Verfication</h4>
-            <button class="verification">verification</button>
                     
-            <div class="button">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+
                 
-            <button class="createCont">
+            <button class="createCont" onclick="Link()">
                 Cadaster
             </button>
+            </form>
         </div>
 
 
@@ -66,5 +62,6 @@
         </div>
     </main>
     <script src="/js/CadasterPage.js"></script>
+    
 </body>
 </html>
