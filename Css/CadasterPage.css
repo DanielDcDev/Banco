@@ -1,0 +1,47 @@
+.Header{
+    background-color: rgb(40, 39, 39,0.7);
+    display:flexbox;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+h1{
+    padding-top: 20px;
+    color: #ffd700;
+    transition: ease-in;
+}h1:hover{
+    color:#5a4e0e;
+    transition-duration: 1s;
+}
+a{
+    text-decoration: none;
+    color:#92811e;
+    transition:ease-in-out, 0.7;
+}a:hover{
+    color: #eed85e;
+    transition-duration: 3s;
+}
+.headLinks{
+    text-align:right;
+    padding-right: 10px;
+    font-size: 25px;
+}
+button{
+    background-color:aliceblue;
+    width: 100px;
+    height: 25px;
+    border-radius:10px;
+    border:5px solid #484011;
+}.ButtonLinks{
+    color: rgb(9, 11, 11);
+
+    
+}
+main{
+    display:flex;
+    background-color: #888575;
+}
+footer{
+    background-color: darkgrey;
+    border-radius: 10px;
+    border: 5px solid rgb(93, 91, 91);
+}
