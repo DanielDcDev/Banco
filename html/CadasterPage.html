@@ -4,14 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadaster</title>
+    <link rel="stylesheet" type="text/css" href="/Css/CadasterPage.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/Css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/Css/font.css"><title>Cadaster</title>
 </head>
 <body>
     <main>
         <h1>Node Bank</h1>
+
         <div class="boxCadaster">
+        
             <h3>Cadaster</h3>
+            <h4>Name</h4>
+            <input class="inputs" type="text" placeholder="Name" id="name">
+            
+            <h4>Gender</h4>
+            <label for="genderCheck">Male:</label>
+            <input type="checkbox" class="inputs" id="male">
+            <label for="genderCheck">Female:</label>
+            <input type="checkbox" class="inputs" id="female">
+            <label for="genderCheck">Other:</label>
+            <input type="text" class="inputs" id="other" placeholder="Other gender">
+            
+
+            <h4>Login:</h4>
+            <input type="text" class="inputs" placeholder="Login" id="login">
+            
+            <h4>Password:</h4>
+            <input type="password" class="inputs" placeholder="Password" id="password">
+                
+            <h4>Comfirm Password:</h4>
+            <input type="password" class="inputs" placeholder="Comfirm password" id="Confirmpassword">
+                
+            <h4>Email: </h4>
+            <input type="email" class="inputs" placeholder="Rmail" id="email">
+            
+            <h4>Reservation email:</h4>
+            <input type="email" class="inputs" placeholder=" Reservation email" id="email">
+            
+            <h4>Date of birth</h4>
+            <input type="date" class="inputs">
+                
+            <h4>Verfication</h4>
+            <button class="verification">verification</button>
+                    
+            <div class="button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                
+            <button class="createCont">
+                Cadaster
+            </button>
+        </div>
+
+
+        <div class="boxStyle">
+
         </div>
     </main>
+    <script src="/js/CadasterPage.js"></script>
 </body>
 </html>
