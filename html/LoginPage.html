@@ -10,20 +10,56 @@
     <title>Login</title>
 </head>
 <body>
-    <h1>Login</h1>
-    <div class="boxLogin">
-        <h4>login</h4>
-        <input type="text" placeholder="Login" class="input" id="login">
-        <h4>Password</h4>
-        <input type="password" placeholder="password" class="input" id="password">
-        <button class="confirmation">Enter</button>
-    </div>
-    <div class="boxStyle">
-    </div>
-    <div class="back">
-        <button id="backHomePage" onclick="Back">Home Page</button>
-    </div>
-</main>
+    <header class="Header">
+        <h1>Node Bank</h1>
+        <div class="headLinks">
+                <a href="#"
+                  class="Links"
+                  id="Home">
+                Home</a>
+                <a href="/html/LoginPage.html"
+                   class="Links"
+                   id="Login">
+                Login</a>
+                <a href="/html/AboutUsPage.html"
+                    class="Links"
+                    id="AboutUS">
+                    About us</a>
+                </div>
+    </header>
+    <section>
+        <center>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <img src="/images/email.png" class="icon"></img>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <img src="/images/cadeado.png" class="icon"></img>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+                      
+                    </div>
+                    <button>Log in</button>
+                    <div class="register">
+                        <p>Don't have a account <a href="#">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+        <div class="back">
+            <button id="backHomePage" onclick="Back">Home Page</button>
+        </div>
+    </section>
+</center>
 <footer>By Dcdev</footer>
 <script src="/Js/LoginPage.js"></script>
 <script src="/Js/global.js"></script>

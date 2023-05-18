@@ -15,3 +15,41 @@ footer{
     left: 0;
     padding-bottom: 12px;
 }
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition:ease-in-out;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    color: black;
+    background-color: antiquewhite;
+    height: 45px;
+    border: 3px solid black;
+}
+
+.Header{
+    display:flex;
+    padding-left: 2vh;
+}.headLinks{
+    /**/
+    align-self: center;
+    padding-left:75%;
+    }a{
+    text-decoration:underline;
+    color: black;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}a:hover{
+    color: antiquewhite;
+}

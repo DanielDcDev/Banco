@@ -1,49 +1,19 @@
-button{
-    width: 15vh;
-    height: 5vh;
-    border-radius: 8px;
-    border: 5px solid rgba(9, 6, 6, 0.49);
-    background-color: rgb(82, 80, 80);
-    color: rgb(1, 1, 1);
-    font-size: large;
-    transition:ease-in-out;
-    transition-duration: 0.2s;
-}
-button:hover{
-    color: black;
-    background-color: antiquewhite;
-    border: 3px solid black;
-}
 img{
     padding: 2vh;
     width: 50vh;
     border-radius: 15px;
 }
-.Header{
-    display:flex;
-    padding-left: 2vh;
-}
+
 .backPhoto{
     border-radius: 15px;
 }
-.headLinks{
-    /**/
-    align-self: center;
-    padding-left:75%;
-    }
+
 main{
     background-color: rgba(179, 30, 60, 0.332);
     text-align: center;
     width: 60vh;
     border-radius: 20px;
 }
-a{
-    text-decoration:underline;
-    color: black;
-    font-size: large;
-    transition: ease-in-out;
-    transition-duration: 1s;
-}
-a:hover{
-    color: antiquewhite;
+button{
+    width: 120px!important;
 }

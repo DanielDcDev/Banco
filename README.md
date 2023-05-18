@@ -5,4 +5,6 @@ Node Bank
 
 <h2>Prints</h2>
 <h3>Home page</h3>
-<img src="/prints/homePage.jpeg">
+<img src="/prints/homepage.jpeg">
+<h3>Login page</h3>
+<img src="/prints/loginpage.jpeg">
