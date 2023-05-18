@@ -8,3 +8,6 @@ Node Bank
 <img src="/prints/homepage.jpeg">
 <h3>Login page</h3>
 <img src="/prints/loginpage.jpeg">
+<h3>Cadaster Page</h3>
+<img src="/prints/cadaster1.jpeg">
+<img src="/prints/cadaster2.jpeg">
