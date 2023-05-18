@@ -32,8 +32,10 @@ img{
     padding-left:75%;
     }
 main{
-    background-color: rgba(83, 27, 38, 0.493);
+    background-color: rgba(179, 30, 60, 0.332);
     text-align: center;
+    width: 60vh;
+    border-radius: 20px;
 }
 a{
     text-decoration:underline;
