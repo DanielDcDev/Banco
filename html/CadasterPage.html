@@ -5,50 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/Css/CadasterPage.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/Css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/Css/font.css"><title>Cadaster</title>
+    <link rel="stylesheet" type="text/css" href="/Css/global.css">
+    <link rel="stylesheet" type="text/css" href="/Css/font.css">
+    <title>Cadaster</title>
 </head>
 <body>
-    <main>
+    <main><center>
         <h1>Node Bank</h1>
-
         <div class="boxCadaster">
-        
             <h3>Cadaster</h3>
             <form>
-            <h4>Name</h4>
-            <input class="inputs" type="text" placeholder="Name" id="name">
-            
-            <h4>Gender</h4>
-            <label for="genderCheck">Male:</label>
-            <input type="checkbox" class="inputs Gender" id="male">
-            <label for="genderCheck">Female:</label>
-            <input type="checkbox" class="inputs Gender" id="female">
-            <br><label for="genderCheck">Other:</label>
-            <input type="text" class="inputs Gender" id="other" placeholder="Other gender">
-            
-
-            <h4>Login:</h4>
-            <input type="text" class="inputs" placeholder="Login" id="login">
-            
-            <h4>Password:</h4>
-            <input type="password" class="inputs" placeholder="Password" id="password">
-                
-            <h4>Comfirm Password:</h4>
-            <input type="password" class="inputs" placeholder="Comfirm password" id="Confirmpassword">
-                
-            <h4>Email: </h4>
-            <input type="email" class="inputs" placeholder="Email" id="email">
-            
-            <h4>Reservation email:</h4>
-            <input type="email" class="inputs" placeholder="ReservationEmail" id="ReservationEmail">
-            
-            <h4>Date of birth</h4>
-            <input type="date" class="inputs" id="date">
-                
-            <h4>Verfication</h4>
-                    
-
+                <div class="inputbox">
+                    <img src="/images/assinatura.png" class="icon"></img>
+                    <input type="name" required>
+                    <label for="">Name</label>
+                </div>
+                <div class="inputbox">
+                    <img src="/images/gender.png" class="icon"></img>
+                    <input type="name" required>
+                    <label for="">Gender</label>
+                </div>
+                <div class="inputbox">
+                    <img src="/images/login.png" class="icon"></img>
+                    <input type="login" required>
+                    <label for="">Login</label>
+                </div>
+                <div class="inputbox">
+                    <img src="/images/cadeado.png" class="icon"></img>
+                    <input type="password" required>
+                    <label for="">password</label>
+                </div>
+                <div class="inputbox">
+                    <img src="/images/cadeado.png" class="icon"></img>
+                    <input type="password" required>
+                    <label for="">Confirm password</label>
+                </div>            
+            <div class="inputbox">
+                <img src="/images/email.png" class="icon"></img>
+                <input type="email" required>
+                <label for="">Email</label>
+            </div>
+            <div class="inputbox">
+                <img src="/images/email.png" class="icon"></img>
+                <input type="email" required>
+                <label for="">Confirm Email</label>
+            </div>
+            <div class="inputbox">
+                <img src="/images/date.png" class="icon"></img>
+                <input type="date" required>
+                <label for="">Date of Born</label>
+            </div>
                 
             <button class="createCont" onclick="Link()">
                 Cadaster
@@ -58,11 +64,13 @@
         </div>
 
 
+
         <div class="back">
             <button id="backHomePage" onclick="Back">Home Page</button>
         </div>
     </main>
-    <footer>By Dcdev</footer>
+    
+</center>
     <script src="/js/CadasterPage.js"></script>
     <script src="/Js/global.js"></script>
 </body>
