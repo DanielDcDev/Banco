@@ -1,41 +1,32 @@
 'use strict'
-const getLocalStorage = () => JSON.parse(localStorage.getItem('banco')) ?? [];
-const setLocalStorage = () => localStorage.setItem("bd_cliente", JSON.stringify(banco));
+//crud 
 
-const createClient = (cliente)=>{
-    const banco = getLocalStorage();
-    banco.push (cliente);
-    setLocalStorage(banco);
+const tempClient = {
+    name: "Daniel",
+    gender: "masculino",
+    login: "DcDev",
+    password: "33931253",
+    CPassword: "33931253",
+    Email: "Danieldcdev@gmail.com",
+    CEmail: "Danieldcdev@gmail.com",
+    DateBorn: "06/10/2002"
 }
-const isValidFIelds = () => {
-    return document.getElementById('form').reportValidity();
+
+const createClient = (client) => {
+    localStorage.setItem("dbCliente", JSON.stringify(client))
+}
+
+const IsValidfields = (client) => {
+    if(tempClient.password.value === tempClient.CPassword.value){
+        if(tempClient.Email.value === tempClient.CEmail.value){
+            createClient();
+        }
+    }else{
+        Erro()
+    }
+}
+const Erro = () => {
+    window.alert('Algum Campo está errado');
 } 
-
-const saveClient = () =>{
-    if (isValidFIelds()){
-const cliente = {
-    name: document.getElementById("name").value,
-    gender: document.getElementsByClassName("Gender").value,
-    login: document.getElementById("login").value,
-    password: document.getElementById("password").value,
-    Cpassword: document.getElementById("Confirmpassword").value,
-    email: document.getElementById("email").value,
-    reservationEmail: document.getElementById("ReservationEmail").value,
-    date: document.getElementById("date").value
-
-}
-const index = document.getElementById('name').dateset.index;
-if(index =="new"){
-    createClient(cliente);
-}
-}
-
-
-}
-
-
-
-function Link(){
-    saveClient();
-    //window.location = '/html/loginPage.html';
-}
+document.getElementById('createCont')
+        .addEventListener('click', IsValidfields);
